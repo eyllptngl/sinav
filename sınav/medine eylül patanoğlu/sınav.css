@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    display:grid;
+    background-color:aliceblue;
+    align-items:center;
+    justify-content:center;
+}
+body>section:first-child{
+    grid-column:1/2;
+}
